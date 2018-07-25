@@ -1,0 +1,8 @@
+*.pyc
+sql/setup.sql
+data
+log
+.pgpass
+env
+.idea/
+*.csv
