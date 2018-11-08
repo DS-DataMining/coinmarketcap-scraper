@@ -44,7 +44,8 @@ def main():
         sys.stdout.flush()
 
     except Exception as argv:
-        print('Arguments parser error' + argv)
+        print(argv)
+        sys.stdout.flush()
     finally:
         pass
 
